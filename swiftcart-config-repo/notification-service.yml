@@ -45,5 +45,5 @@ server:
       enabled: true
 notification:
   email:
-    subject: "We received your SwiftCart order - ${orderTrackingNum}"
-    template: "Hi, your order ${orderTrackingNum} is confirmed. Thank you for shopping with us!"  
+    subject: "We received your SwiftCart order - $${orderTrackingNum}"
+    template: "Hi, your order $${orderTrackingNum} is confirmed. Thank you for shopping with us!"
