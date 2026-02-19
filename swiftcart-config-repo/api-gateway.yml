@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: api-gateway
+server:
+  port: 8080
+# Add other api-gateway specific configs here

@@ -1,0 +1,45 @@
+spring:
+  application:
+    name: auth-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/ecom_db
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: verma6858@gmail.com
+    password: qfpn ivwz lwtz qvob
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+server:
+  port: 8081
+  ssl:
+    enabled: false
+  tomcat:
+    native: false
+jwt:
+  secretKey: Zr7vE5tH9XcV2m9s0P6u7xG5XkZ9f4m2wEJ3QnR8o9s=
+  resetExpiryMinutes: 10
+  expiryMinutes: 10
+  secretKeyExpiryInterval: 60
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
+spring:
+  cloud:
+    compatibility-verifier:
+      enabled: false
