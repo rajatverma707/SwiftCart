@@ -1,0 +1,3 @@
+com\retail\gateway\controller\FallbackController.class
+com\retail\gateway\filter\JwtAuthFilter.class
+com\retail\gateway\ApiGatewayApplication.class

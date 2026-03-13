@@ -1,0 +1,8 @@
+com\retail\product\controller\ProductController.class
+com\retail\product\exception\ApiError.class
+com\retail\product\service\ProductService.class
+com\retail\product\exception\GlobalExceptionHandler.class
+com\retail\product\client\AdminClient.class
+com\retail\product\exception\ApiError$ApiErrorBuilder.class
+com\retail\product\ProductListingApplication.class
+com\retail\product\dto\ProductDto.class

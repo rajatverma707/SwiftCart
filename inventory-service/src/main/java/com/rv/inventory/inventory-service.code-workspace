@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../.."
+		},
+		{
+			"path": "../../../../../../../order-service"
+		},
+		{
+			"path": "../../../../../../../api-gateway"
+		},
+		{
+			"path": "../../../../../../../auth-service"
+		},
+		{
+			"path": "../../../../../../../notify-service"
+		},
+		{
+			"path": "../../../../../../../service-registry"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "interactive",
+		"java.debug.settings.onBuildFailureProceed": true
+	}
+}

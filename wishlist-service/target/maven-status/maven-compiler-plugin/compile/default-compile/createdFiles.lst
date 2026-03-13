@@ -1,0 +1,6 @@
+com\rv\wishlist\repository\WishlistItemRepository.class
+com\rv\wishlist\controller\WishlistController.class
+com\rv\wishlist\entity\WishlistItem.class
+com\rv\wishlist\entity\WishlistItem$WishlistItemBuilder.class
+com\rv\wishlist\WishlistServiceApplication.class
+com\rv\wishlist\service\WishlistService.class

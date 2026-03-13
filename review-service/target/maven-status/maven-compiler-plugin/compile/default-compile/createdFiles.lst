@@ -1,0 +1,14 @@
+com\rv\review\dto\OrderApiResponse.class
+com\rv\review\entity\Review.class
+com\rv\review\config\WebClientConfig.class
+com\rv\review\dto\ReviewRequestDto.class
+com\rv\review\service\ReviewServiceImpl$1.class
+com\rv\review\dto\OrderSummaryDto.class
+com\rv\review\controller\ReviewController.class
+com\rv\review\repository\ReviewRepository.class
+com\rv\review\ReviewServiceApplication.class
+com\rv\review\service\ReviewService.class
+com\rv\review\exception\ReviewNotAllowedException.class
+com\rv\review\exception\GlobalExceptionHandler.class
+com\rv\review\service\ReviewServiceImpl.class
+com\rv\review\dto\ReviewResponseDto.class

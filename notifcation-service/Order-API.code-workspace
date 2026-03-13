@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../Order-API"
+		},
+		{
+			"path": "../inventory-service"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"java.debug.settings.onBuildFailureProceed": true,
+		"java.configuration.updateBuildConfiguration": "interactive"
+	}
+}

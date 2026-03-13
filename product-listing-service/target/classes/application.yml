@@ -1,0 +1,22 @@
+
+server:
+  port: 8082
+spring:
+  application:
+    name: product-listing-service
+  config:
+    import: configserver
+  cloud:
+    config:
+      uri: http://localhost:8888
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+resilience4j:
+  circuitbreaker:
+    instances:
+      adminService:
+        slidingWindowSize: 5
+        failureRateThreshold: 50

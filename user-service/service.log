@@ -1,0 +1,47 @@
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.5)
+
+2026-02-18T11:26:46.623+05:30  INFO 5720 --- [user-service] [  restartedMain] com.rv.user.UserServiceApplication       : Starting UserServiceApplication using Java 17.0.10 with PID 5720 (C:\Users\Rajat\Desktop\Retail Microservices\SwiftCart\user-service\target\classes started by Rajat in C:\Users\Rajat\Desktop\Retail Microservices\SwiftCart\user-service)
+2026-02-18T11:26:46.634+05:30  INFO 5720 --- [user-service] [  restartedMain] com.rv.user.UserServiceApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-02-18T11:26:46.891+05:30  INFO 5720 --- [user-service] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-02-18T11:26:46.895+05:30  INFO 5720 --- [user-service] [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-02-18T11:26:50.749+05:30  INFO 5720 --- [user-service] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-18T11:26:51.332+05:30  INFO 5720 --- [user-service] [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 543 ms. Found 7 JPA repository interfaces.
+2026-02-18T11:26:56.374+05:30  INFO 5720 --- [user-service] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2026-02-18T11:26:56.424+05:30  INFO 5720 --- [user-service] [  restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-18T11:26:56.425+05:30  INFO 5720 --- [user-service] [  restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2026-02-18T11:26:56.625+05:30  INFO 5720 --- [user-service] [  restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-02-18T11:26:56.630+05:30  INFO 5720 --- [user-service] [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9729 ms
+2026-02-18T11:26:57.833+05:30  INFO 5720 --- [user-service] [  restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-02-18T11:26:58.124+05:30  INFO 5720 --- [user-service] [  restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2026-02-18T11:26:58.526+05:30  INFO 5720 --- [user-service] [  restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-02-18T11:27:00.690+05:30  INFO 5720 --- [user-service] [  restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-18T11:27:01.072+05:30  INFO 5720 --- [user-service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-18T11:27:06.006+05:30  INFO 5720 --- [user-service] [  restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@fffa18c
+2026-02-18T11:27:06.061+05:30  INFO 5720 --- [user-service] [  restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-18T11:27:16.272+05:30  INFO 5720 --- [user-service] [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-18T11:27:17.876+05:30  INFO 5720 --- [user-service] [  restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-18T11:27:21.049+05:30  INFO 5720 --- [user-service] [  restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-18T11:27:24.047+05:30  WARN 5720 --- [user-service] [  restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-18T11:27:24.213+05:30  INFO 5720 --- [user-service] [  restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name customUserDetailsService
+2026-02-18T11:27:27.752+05:30  WARN 5720 --- [user-service] [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2026-02-18T11:27:28.024+05:30  INFO 5720 --- [user-service] [  restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2026-02-18T11:27:28.078+05:30  INFO 5720 --- [user-service] [  restartedMain] com.rv.user.UserServiceApplication       : Started UserServiceApplication in 42.738 seconds (process running for 44.54)
+2026-02-18T11:28:21.484+05:30  INFO 5720 --- [user-service] [nio-8081-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-18T11:28:21.488+05:30  INFO 5720 --- [user-service] [nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-18T11:28:21.509+05:30  INFO 5720 --- [user-service] [nio-8081-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 19 ms
+2026-02-18T11:39:18.692+05:30  WARN 5720 --- [user-service] [l-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m20s125ms286µs700ns).
+[ERROR] Failed to execute goal org.springframework.boot:spring-boot-maven-plugin:3.3.5:run (default-cli) on project user-service: Process terminated with exit code: -1 -> [Help 1]
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException

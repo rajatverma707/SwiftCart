@@ -1,0 +1,22 @@
+{"properties": [
+  {
+    "name": "campaign.service.url",
+    "type": "java.lang.String",
+    "description": "A description for 'campaign.service.url'"
+  },
+  {
+    "name": "user.service.url",
+    "type": "java.lang.String",
+    "description": "A description for 'user.service.url'"
+  },
+  {
+    "name": "order.service.url",
+    "type": "java.lang.String",
+    "description": "A description for 'order.service.url'"
+  },
+  {
+    "name": "app.images.upload-dir",
+    "type": "java.lang.String",
+    "description": "A description for 'app.images.upload-dir'"
+  }
+]}

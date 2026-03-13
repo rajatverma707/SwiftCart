@@ -1,0 +1,38 @@
+spring:
+  config:
+    import: configserver
+  application:
+    name: wishlist-service
+  cloud:
+    config:
+      uri: http://localhost:8888
+spring:
+  application:
+    name: wishlist-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/ecom_db
+    username: root
+    password: 123456
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+server:
+  port: 8095
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0
+  zipkin:
+    tracing:
+      endpoint: http://localhost:9411/api/v2/spans
